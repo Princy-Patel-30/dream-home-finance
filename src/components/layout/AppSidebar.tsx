@@ -16,7 +16,7 @@ const navGroups = [
   {
     label: "Overview",
     items: [
-      { title: "Dashboard", url: "/", icon: LayoutDashboard },
+      { title: "Dashboard", url: "/dashboard", icon: LayoutDashboard },
       { title: "Analytics", url: "/analytics", icon: TrendingUp },
       { title: "Notifications", url: "/notifications", icon: Bell },
     ],
@@ -99,7 +99,7 @@ export function AppSidebar() {
                     <SidebarMenuButton asChild>
                       <NavLink
                         to={item.url}
-                        end={item.url === "/"}
+                        end={item.url === "/dashboard"}
                         className="hover:bg-sidebar-accent/50 transition-colors"
                         activeClassName="bg-sidebar-accent text-primary font-medium"
                       >
