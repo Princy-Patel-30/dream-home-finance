@@ -16,7 +16,7 @@ const navGroups = [
   {
     label: "Overview",
     items: [
-      { title: "Dashboard", url: "/", icon: LayoutDashboard },
+      { title: "Dashboard", url: "/dashboard", icon: LayoutDashboard },
       { title: "Analytics", url: "/analytics", icon: TrendingUp },
       { title: "Notifications", url: "/notifications", icon: Bell },
     ],
